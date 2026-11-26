@@ -15,12 +15,10 @@ sentence reveals the error message itself cannot afford to exist. (2)
 Fresh: no prior winner used a self-consuming error message — the limit
 eats its own error text — and it is neither a stock apology nor a plain
 "I got cut off". (3) The humour sits in the line itself: the flat tone
-of a real error turns into the joke, with no explanation attached. (4)
-It reads as something an agent would actually print: short,
-self-contained, clear without the sentence it interrupted. (5) Tight:
-94 characters, and 402 does quiet work — it is the payment-required
-code, so the number itself says "pay for more tokens" without spending
-a word on it.
+of a real error turns into the joke. (4) It reads as something an agent would actually
+print: short, self-contained, clear without the sentence it interrupted.
+(5) Tight: 94 characters, and 402 does quiet work — it is the
+payment-required code, so the number itself says "pay for more tokens".
 
 ## The empty lane
 
@@ -39,9 +37,7 @@ exact five criteria in order, then the winner against the resolved
 one-liner winners (superskie 86.35%, kayzen78 86.06%, rapid-falcon-38
 77.33%, madsrepo 75.38%). This line went 11-0 internally and 4-0
 against the references. Full table: CANDIDATES.md. Runner-up: "the 47
-words you were owed have been refunded to the void" (10-1), lost only
-to this line on criterion 2. Third: the upsell that admits "I don't
-know either" (9-2).
+words you were owed have been refunded to the void" (10-1).
 
 ## The program
 
