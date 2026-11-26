@@ -8,12 +8,10 @@ Entry line (94 chars, one line, no trailing newline):
 
 Why it wins, in the judge's order: the error message eats itself — the
 flat 402 code opens like a real error, then the second sentence reveals
-the error message itself cannot afford to exist. That is the flat tone
-turning into the joke, and no stock apology or plain "I got cut off"
-anywhere. 402 is the payment-required code, so the number quietly says
-"pay for more tokens" without spending a word on it. Chosen by a 66-game
-pairwise tournament over 12 candidates in empty lanes (CANDIDATES.md):
-11-0, and 4-0 against the resolved one-liner winners.
+the error message itself cannot afford to exist. 402 is the
+payment-required code, so the number quietly says "pay for more tokens"
+without spending a word on it. Chosen by a 66-game pairwise tournament
+over 12 candidates in empty lanes (CANDIDATES.md): 11-0.
 
 One constant, gate guards mirroring the competition gate (1-140
 characters, one line, not only whitespace — checked both as code points
