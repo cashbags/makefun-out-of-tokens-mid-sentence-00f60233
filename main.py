@@ -69,6 +69,10 @@ def write_line() -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
     # No trailing newline: the file is the line itself, exactly one line.
     target.write_text(LINE, encoding="utf-8")
+    # Read it back and confirm the disk holds exactly the line we checked:
+    # a write that silently changed a byte must fail here, not at the gate.
+    if target.read_text(encoding="utf-8") != LINE:
+        abort("entry.txt on disk differs from the checked line")
     print(f"wrote {target} ({code_points} code points, {byte_count} bytes)")
 
 
